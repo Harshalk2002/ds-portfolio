@@ -72,6 +72,13 @@ export default function Home() {
               >
                 <a href="#projects">VIEW MY WORK</a>
               </Button>
+              <Button
+                asChild
+                variant="neutral"
+                className="border-[3px] border-black shadow-[6px_6px_0px_#000] hover:shadow-none hover:translate-x-[6px] hover:translate-y-[6px] px-6 py-3 font-bold uppercase tracking-wide"
+              >
+                <a href="#experience">VIEW EXPERIENCE</a>
+              </Button>
             </div>
           </div>
 
