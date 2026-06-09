@@ -243,65 +243,65 @@ export default function Home() {
                 color: "#FF1E8E",
                 emoji: "\u26A1",
                 title: "ResumeAI Pro",
-                subtitle: "Solo Build \u2022 LIVE",
+                subtitle: "Solo Build, LIVE",
                 desc: "Built this solo after watching too many friends get filtered out by ATS systems. It rewrites resumes for keyword matching using GPT-4 and a custom scoring engine. Hundreds of grads have used it to land interviews at FAANG and finance firms.",
                 tags: ["PYTHON", "FASTAPI", "OPENAI", "RAILWAY"],
                 url: "https://resume-ai-pro-production.up.railway.app",
-                linkLabel: "View Live \u2192",
+                linkLabel: "View Live",
               },
               {
                 color: "#00DFFC",
                 emoji: "\uD83D\uDEE1\uFE0F",
-                title: "Fraud Detection at Scale",
-                subtitle: "500K+ Records \u2022 XGBoost Ensemble",
-                desc: "Worked with 500K+ credit applications where fraud cases were 1 in 99. Used SMOTE to rebalance the data and trained an XGBoost ensemble that hit 80% recall and 85% precision. Caught 1,200 fraud cases that would have cost the business around $30M.",
-                tags: ["PYTHON", "XGBOOST", "SMOTE", "TABLEAU"],
-                url: null,
-                linkLabel: "Production Project (internal)",
+                title: "Credit Card Fraud Detection",
+                subtitle: "Real-Time ML Pipeline",
+                desc: "Real-time ML pipeline that catches fraudulent credit card transactions on a brutally imbalanced dataset where fraud is 1 in 99. Used SMOTE rebalancing and an XGBoost ensemble hitting 80% recall and 85% precision. Caught 1,200 fraud cases worth around 30M in savings.",
+                tags: ["PYTHON", "XGBOOST", "SMOTE", "ML"],
+                url: "https://github.com/Harshalk2002/Real-Time-Credit-Card-Fraud-Detection-using-Machine-Learning",
+                linkLabel: "View Project",
               },
               {
                 color: "#FFD93D",
-                emoji: "\uD83E\uDDE0",
-                title: "LLM Eval Framework",
-                subtitle: "Production RAG \u2022 Golden Test Sets",
-                desc: "Most LLM projects skip evals and ship broken stuff. I built a proper eval harness with LLM-as-judge and a golden test set, then fine-tuned LLaMA-2 and Mistral with LoRA on 50K records. Accuracy went from 36% to 77% with the right evaluation loop.",
-                tags: ["PYTORCH", "LANGCHAIN", "LORA", "PINECONE"],
-                url: "https://github.com/Harshalk2002",
-                linkLabel: "View Project \u2192",
+                emoji: "\uD83C\uDF93",
+                title: "GSU Official ChatBot",
+                subtitle: "RAG, Production",
+                desc: "RAG-powered chatbot built for Georgia State students. Answers questions about courses, professors, deadlines, and campus services using LangChain over the official course catalog. No human intervention needed, used by hundreds of students every week.",
+                tags: ["LANGCHAIN", "RAG", "OPENAI", "NLP"],
+                url: "https://github.com/Harshalk2002/GENAI_003_PROJECT_02",
+                linkLabel: "View Project",
               },
               {
                 color: "#B4FF00",
-                emoji: "\uD83C\uDFAF",
-                title: "GSU Official ChatBot",
-                subtitle: "RAG \u2022 Production \u2022 Live for Students",
-                desc: "RAG-powered chatbot built for Georgia State students. Answers questions about courses, professors, deadlines, and campus services using LangChain and Pinecone vector search over the official course catalog. Used by hundreds of students every week.",
-                tags: ["LANGCHAIN", "RAG", "PINECONE", "OPENAI"],
-                url: "https://github.com/Harshalk2002/GENAI_003_PROJECT_02",
-                linkLabel: "View Project \u2192",
+                emoji: "\uD83E\uDDE0",
+                title: "ChatDesk AI",
+                subtitle: "Python Desktop App",
+                desc: "Python desktop client for ChatGPT built with Tkinter and CustomTkinter. Has model switching, session history, and optional text-to-speech using the OpenAI Chat Completions API. Built it because I wanted a faster local interface than the browser.",
+                tags: ["PYTHON", "TKINTER", "OPENAI API", "TTS"],
+                url: "https://github.com/Harshalk2002/ChatDesk-AI",
+                linkLabel: "View Project",
               },
               {
                 color: "#B19CD9",
-                emoji: "\uD83C\uDF5B",
-                title: "Dalchini Recipe AI",
-                subtitle: "Indian Cuisine \u2022 Recipe Generator",
-                desc: "AI-powered recipe generator focused on regional Indian cuisine. Takes ingredients you have on hand and suggests authentic recipes with step-by-step instructions, swaps, and cultural context. Built because I missed home food.",
-                tags: ["PYTHON", "OPENAI", "STREAMLIT", "NLP"],
-                url: "https://github.com/Harshalk2002/Dalchini",
-                linkLabel: "View Project \u2192",
+                emoji: "\uD83E\uDD16",
+                title: "Deep Learning and RL Strategy",
+                subtitle: "Image Classification + RL Agent",
+                desc: "Two-part project. First half trains a deep learning model on image classification tasks. Second half builds a reinforcement learning agent that learns optimal strategies through trial and error. Good practice for combining supervised and RL paradigms in one workflow.",
+                tags: ["PYTORCH", "DEEP LEARNING", "RL", "COMPUTER VISION"],
+                url: "https://github.com/Harshalk2002/Image-Based-DeepLearning-and-RL",
+                linkLabel: "View Project",
               },
               {
                 color: "#FF1E8E",
-                emoji: "\uD83C\uDF93",
-                title: "F-1 Visa Guidance System",
-                subtitle: "NLP Chatbot \u2022 100K+ Comments",
-                desc: "Built this after watching peers stress about OPT timelines and visa rules. RAG chatbot answers F-1 and OPT questions using official USCIS docs as the source of truth. BERT classifier handles 100K+ student comments at 88% accuracy.",
-                tags: ["BERT", "LANGCHAIN", "RAG", "STREAMLIT"],
-                url: "https://github.com/Harshalk2002/-F-1-Visa-Guidance-System",
-                linkLabel: "View Project \u2192",
+                emoji: "\uD83D\uDCCA",
+                title: "Shipping Analytics Dashboard",
+                subtitle: "Power BI, 2024 Data",
+                desc: "Interactive Power BI dashboard covering 2024 shipping data across carriers, methods, regions, and pack types. Shows cost breakdowns, delivery time patterns, and carrier reliability scores. Built to help logistics teams pick the right carrier mix per region.",
+                tags: ["POWER BI", "DAX", "SQL", "ETL"],
+                url: "https://github.com/Harshalk2002/Shipping-data-DASHBOARD-",
+                linkLabel: "View Project",
               },
             ].map((project) => {
               const cardContent = (
-                <NeoCard key={project.title} bg="bg-white" className={`overflow-hidden h-full flex flex-col${project.url ? " cursor-pointer" : ""}`}>
+                <NeoCard key={project.title} bg="bg-white" className="overflow-hidden h-full flex flex-col cursor-pointer">
                   <div
                     className="h-3 w-full"
                     style={{ backgroundColor: project.color }}
@@ -336,25 +336,17 @@ export default function Home() {
                         </Badge>
                       ))}
                     </div>
-                    {project.url ? (
-                      <p className="font-[family-name:var(--font-jetbrains-mono)] text-xs font-bold mt-auto pt-4 group-hover:text-[#FF1E8E] group-hover:underline">
-                        {project.linkLabel}
-                      </p>
-                    ) : (
-                      <p className="font-[family-name:var(--font-jetbrains-mono)] text-xs font-bold mt-auto pt-4 text-gray-500">
-                        {project.linkLabel}
-                      </p>
-                    )}
+                    <p className="font-[family-name:var(--font-jetbrains-mono)] text-xs font-bold mt-auto pt-4 group-hover:text-[#FF1E8E] group-hover:underline">
+                      {project.linkLabel} →
+                    </p>
                   </CardContent>
                 </NeoCard>
               );
 
-              return project.url ? (
+              return (
                 <a key={project.title} href={project.url} target="_blank" rel="noopener noreferrer" className="group h-full">
                   {cardContent}
                 </a>
-              ) : (
-                <div key={project.title} className="h-full">{cardContent}</div>
               );
             })}
           </div>
