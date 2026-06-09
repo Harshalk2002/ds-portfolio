@@ -237,43 +237,67 @@ export default function Home() {
       <section id="projects" className="px-4 py-16 md:py-20">
         <div className="max-w-6xl mx-auto">
           <SectionHeader>PROJECTS</SectionHeader>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
                 color: "#FF1E8E",
-                emoji: "📊",
-                title: "Amazon Relay Safety Rewards Dashboard",
-                subtitle: "Production",
-                desc: "Owned end-to-end BI for $67MM rewards program. 7+ ETL pipelines, 3 QuickSight dashboards, daily feeds to 24K+ carriers.",
-                tags: ["SQL", "QUICKSIGHT", "AWS REDSHIFT"],
-                url: null,
+                emoji: "⚡",
+                title: "ResumeAI Pro",
+                subtitle: "Solo Build \u2022 LIVE",
+                desc: "AI-powered tool that rewrites resumes for ATS systems using GPT-4. Built solo, used by hundreds of grads to land interviews at FAANG and finance firms.",
+                tags: ["PYTHON", "FASTAPI", "OPENAI", "RAILWAY"],
+                url: "https://resume-ai-pro-production.up.railway.app",
+                linkLabel: "View Live \u2192",
               },
               {
                 color: "#00DFFC",
-                emoji: "🧠",
-                title: "LLM Eval Framework",
-                subtitle: "Research",
-                desc: "Built evaluation harness with golden test sets, improving model accuracy 36% to 77%.",
-                tags: ["PYTHON", "LANGCHAIN", "HUGGING FACE"],
-                url: "https://github.com/Harshalk2002/GENAI_003_PROJECT_02",
+                emoji: "\uD83D\uDEE1\uFE0F",
+                title: "Fraud Detection at Scale",
+                subtitle: "500K+ Records \u2022 XGBoost Ensemble",
+                desc: "Curated 500K+ credit applications with SMOTE rebalancing (1:99 fraud ratio). Built XGBoost ensemble achieving 80% recall + 85% precision, flagging 1,200 fraud cases with $30M+ projected savings.",
+                tags: ["PYTHON", "XGBOOST", "SMOTE", "TABLEAU"],
+                url: null,
+                linkLabel: "Production Project (internal)",
               },
               {
                 color: "#FFD93D",
-                emoji: "📈",
-                title: "Demand Forecasting at TDK",
-                subtitle: "Production",
-                desc: "PyTorch + XGBoost forecasting across 80+ business units. 15% lift in opportunity ID.",
-                tags: ["PYTORCH", "XGBOOST", "ARIMA"],
-                url: null,
+                emoji: "\uD83E\uDDE0",
+                title: "LLM Eval Framework",
+                subtitle: "Production RAG \u2022 Golden Test Sets",
+                desc: "Fine-tuned LLaMA-2 and Mistral with LoRA/QLoRA on 50K+ records. Built eval harness with LLM-as-judge and golden test sets, improving accuracy from 36% to 77%.",
+                tags: ["PYTORCH", "LANGCHAIN", "LORA", "PINECONE"],
+                url: "https://github.com/Harshalk2002",
+                linkLabel: "View Project \u2192",
               },
               {
                 color: "#B4FF00",
-                emoji: "🚀",
-                title: "ResumeAI Pro",
-                subtitle: "Solo Build \u2022 LIVE",
-                desc: "AI tool rewriting resumes for ATS. Built solo, used by hundreds of grads.",
-                tags: ["PYTHON", "FASTAPI", "OPENAI"],
-                url: "https://resume-ai-pro-production.up.railway.app",
+                emoji: "\uD83D\uDCCA",
+                title: "Amazon Relay Safety Rewards BI",
+                subtitle: "$67MM Program \u2022 24K+ Carriers",
+                desc: "Owned end-to-end BI for $67MM rewards program at Amazon. 7+ ETL pipelines, 3 QuickSight dashboards, daily feeds to 24K+ carriers. SQL pipeline re-engineered 88min \u2192 23min.",
+                tags: ["SQL", "QUICKSIGHT", "AWS REDSHIFT", "ETL"],
+                url: null,
+                linkLabel: "Production Project (internal)",
+              },
+              {
+                color: "#B19CD9",
+                emoji: "\uD83D\uDCC8",
+                title: "Demand Forecasting at TDK",
+                subtitle: "80+ Business Units \u2022 Multi-Model",
+                desc: "Built demand forecasting models (PyTorch, XGBoost, ARIMA) across 80+ business units. 15% lift in opportunity identification. TensorFlow recommendation engine drove 25% cross-sell.",
+                tags: ["PYTORCH", "XGBOOST", "ARIMA", "TENSORFLOW"],
+                url: null,
+                linkLabel: "Production Project (internal)",
+              },
+              {
+                color: "#FF1E8E",
+                emoji: "\uD83C\uDF93",
+                title: "F-1 Visa Guidance System",
+                subtitle: "NLP Chatbot \u2022 100K+ Comments",
+                desc: "RAG-powered chatbot answering F-1 visa and OPT questions for international students. BERT NLP classifies 100K+ comments at 88% accuracy. Built as a side project after seeing peers struggle.",
+                tags: ["BERT", "LANGCHAIN", "RAG", "STREAMLIT"],
+                url: "https://github.com/Harshalk2002/-F-1-Visa-Guidance-System",
+                linkLabel: "View Project \u2192",
               },
             ].map((project) => {
               const cardContent = (
@@ -314,11 +338,11 @@ export default function Home() {
                     </div>
                     {project.url ? (
                       <p className="font-[family-name:var(--font-jetbrains-mono)] text-xs font-bold mt-auto pt-4 group-hover:text-[#FF1E8E] group-hover:underline">
-                        View Project →
+                        {project.linkLabel}
                       </p>
                     ) : (
-                      <p className="font-[family-name:var(--font-jetbrains-mono)] text-xs font-bold mt-auto pt-4 text-black/40">
-                        Internal Project →
+                      <p className="font-[family-name:var(--font-jetbrains-mono)] text-xs font-bold mt-auto pt-4 text-gray-500">
+                        {project.linkLabel}
                       </p>
                     )}
                   </CardContent>
