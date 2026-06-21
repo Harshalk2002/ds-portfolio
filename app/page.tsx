@@ -362,86 +362,86 @@ export default function Home() {
               {
                 company: "Amazon",
                 role: "Business Analyst II",
-                location: "Atlanta, GA",
-                date: "March 2026 \u2013 Present",
-                subcategories: [
-                  {
-                    emoji: "📊",
-                    name: "Business Intelligence & Reporting",
-                    bullets: [
-                      "Owned end-to-end BI for $67MM Relay Safety Rewards program \u2014 7+ ETL pipelines, 3 QuickSight dashboards, daily feeds to 24K+ carriers",
-                      "Re-engineered legacy SQL pipeline (88min \u2192 23min, 74% faster), stabilizing dashboards for 50+ stakeholders",
-                      "Standardized 8+ core performance metrics with product + operations leaders, reducing insight delivery 2 days \u2192 under 1 hour",
-                    ],
-                    tech: "SQL, Python, QuickSight, AWS Redshift, ETL",
-                  },
-                  {
-                    emoji: "🤝",
-                    name: "Cross-Functional Stakeholder Partnership",
-                    bullets: [
-                      "Partnered with PMs, SDEs, and Finance to define data elements, SLAs, and metric ownership across 50+ teams",
-                      "Designed self-service QuickSight dashboards reducing ad-hoc analyst requests by 70%",
-                      "Built GenAI deep-dive workflows cutting insight time from days to under an hour",
-                    ],
-                    tech: "QuickSight, SQL, Stakeholder Management, GenAI",
-                  },
+                location: "Atlanta, GA · On-site",
+                date: "Mar 2026 – Present",
+                techStack: "SQL, Python, QuickSight, AWS Redshift, ETL",
+                bullets: [
+                  "Re-engineered legacy SQL pipeline powering a high-volume data workflow, cutting runtime by 60% and stabilizing downstream dashboard refreshes for 50+ cross-functional stakeholders",
+                  "Built automated data ingestion workflow eliminating manual collection tasks, saving the analytics team 10+ hours/week and standardizing requirement intake across stakeholders",
+                  "Standardized 8+ core performance metrics with product and operations leaders, consolidating fragmented reports into a unified dashboard that reduced insight delivery from 2 days to under 1 hour",
                 ],
               },
               {
-                company: "Georgia State University",
-                role: "Data Scientist",
-                location: "Atlanta, GA",
-                date: "Aug 2024 \u2013 Dec 2025",
-                subcategories: [
-                  {
-                    emoji: "📈",
-                    name: "Predictive Modeling & Forecasting",
-                    bullets: [
-                      "Built predictive models for clinical workflows achieving 85% accuracy across 5 service lines",
-                      "Improved data quality 40% through SQL feature engineering and consolidation of 5+ operational data sources",
-                      "Reduced reporting cycles 35% via automated analytics dashboards and SQL pipelines",
-                    ],
-                    tech: "Python, SQL, scikit-learn, XGBoost, Power BI",
-                  },
-                  {
-                    emoji: "🧠",
-                    name: "LLM & NLP Analytics",
-                    bullets: [
-                      "Fine-tuned LLMs (LLaMA-2, Mistral, GPT-3.5) on 50,000+ records, improving accuracy 36% \u2192 77%",
-                      "Built NLP pipelines for automated complaint classification, achieving 81% semantic accuracy",
-                      "Designed eval frameworks with golden test sets and LLM-as-judge for production model validation",
-                    ],
-                    tech: "PyTorch, Hugging Face, LangChain, Pinecone",
-                  },
+                company: "Shepherd Center",
+                role: "Business Analyst",
+                location: "Atlanta, GA · Hybrid",
+                date: "Aug 2025 – Dec 2025",
+                techStack: "SQL, Python, Power BI, ML, Epic EHR",
+                bullets: [
+                  "Built SQL-powered dashboards tracking operational KPIs (FIM efficiency, length of stay, cycle time variance, bed utilization) across 5 rehabilitation service lines at a US News #13-ranked hospital, reducing executive reporting cycles by 35% by replacing manual spreadsheet compilation, used by clinical leadership for capacity planning across 152 beds",
+                  "Developed and deployed predictive ML models achieving 81% accuracy in identifying patient flow bottlenecks in real time, enabling proactive staff reallocation that improved operational efficiency by 12%",
+                  "Engineered automated data validation workflows during Shepherd Center's Epic EHR migration, reducing manual data triage by 35% and ensuring pipeline continuity for NIDILRR Model System federal reporting",
                 ],
               },
               {
                 company: "Amazon",
-                role: "Business Intelligence Engineer Intern",
-                location: "Dallas, TX",
-                date: "May 2025 \u2013 Aug 2025",
-                techStack: "SQL, Python, AWS Redshift, Airflow, Tableau",
+                role: "Business Intelligence Engineer",
+                location: "Dallas, TX · On-site",
+                date: "May 2025 – Aug 2025",
+                techStack: "SQL, Python, AWS Redshift, QuickSight, A/B Testing",
                 bullets: [
-                  "Built high-performance SQL pipelines using recursive CTEs and window functions across 150+ sites, improving analytics performance by 40%",
-                  "Automated real-time data workflows shifting refresh cadence to 4x daily, cutting decision latency 80%",
-                  "Integrated forecasting and anomaly detection models into BI dashboards, generating 2-week advance signals",
-                  "Partnered with product + ops teams on agile sprints, code reviews, and analytics on-call rotation",
+                  "Optimized 1,000+ lines of production SQL workflows using recursive CTEs, window functions, and schema remapping on Amazon Redshift, cutting query runtime by 40% and enabling scalable workforce analytics across 150+ fulfillment sites",
+                  "Architected ETL pipelines in SQL and Python on Redshift (ingest → transform → validate) with automated schema checks and data quality frameworks that improved reliability for labor planning systems",
+                  "Automated BI dashboards from once-daily to 4x daily refreshes using Redshift and QuickSight, cutting decision lag by 80% and delivering near real-time workforce visibility to operations leaders",
+                  "Designed and executed A/B tests comparing refresh strategies using two-sample t-tests and confidence intervals at 95% significance, validating an 80% reduction in decision lag before global rollout",
+                ],
+              },
+              {
+                company: "Shepherd Center",
+                role: "Data Analyst",
+                location: "Atlanta, GA",
+                date: "Jan 2025 – Apr 2025",
+                techStack: "SQL, Python, Power BI, ML",
+                bullets: [
+                  "Built SQL-powered analytical dashboards tracking operational KPIs across 5 rehabilitation service lines, reducing executive reporting cycles by 35% and replacing manual spreadsheet compilation for clinical leadership",
+                  "Developed predictive ML models achieving 81% accuracy in bottleneck detection, enabling proactive staff reallocation that improved operational efficiency by 12%",
+                  "Engineered automated data validation workflows during Epic EHR migration, reducing manual triage by 35% and ensuring data continuity for NIDILRR Model System reporting",
+                ],
+              },
+              {
+                company: "Better Business Bureau",
+                role: "Data Analyst / AI Developer",
+                location: "Atlanta, GA · Hybrid",
+                date: "Aug 2024 – Dec 2024",
+                techStack: "Python, LangChain, RAG, LLMs, SQL",
+                bullets: [
+                  "Fine-tuned production LLM systems using LangChain + RAG over BBB's enterprise complaint corpus (81K+ scams, 697K reviews), improving AI response alignment from 36% to 77%, outperforming the 50% baseline through prompt engineering and eval loops",
+                  "Architected ETL pipelines in Python and SQL consolidating 5+ data sources (complaints, Scam Tracker, business profiles), improving data quality by 40% and enabling automated classification across 33 scam categories at 200M+ visit scale",
+                  "Deployed diagnostic ML pipelines achieving 81% accuracy and reducing resolution time by 35% against 30-day SLAs, supporting consumer protection across 90+ bureaus that helped avoid $43M in fraud losses",
                 ],
               },
               {
                 company: "TDK Electronics",
-                role: "Data Analyst",
-                location: "Bengaluru, India",
-                date: "Jul 2023 \u2013 Jul 2024",
-                techStack: "Python, SQL, Power BI, PyTorch, Airflow",
+                role: "Business Analyst",
+                location: "Tokyo, Japan · Hybrid",
+                date: "Jul 2023 – Jul 2024",
+                techStack: "Power BI, SQL, Python, ARIMA, Random Forest",
                 bullets: [
-                  "Built data pipelines and dashboards for 80+ business units, improving resource allocation efficiency by 20%",
-                  "Engineered demand forecasting models (PyTorch, XGBoost, ARIMA), achieving 15% lift in opportunity identification",
-                  "Designed Power BI dashboards with DAX measures + Redshift integration via RLS",
-                  "Orchestrated SQL/Python ETL jobs in Airflow, reducing pipeline failures by 45%",
+                  "Analyzed product growth and profitability across 80+ business units within a Fortune Global 2000 manufacturer ($14.6B revenue), identifying high-growth opportunities 15% faster and improving cross-regional resource allocation efficiency by 20%",
+                  "Architected secure BI infrastructure integrating Power BI with Amazon Redshift and Row-Level Security (RLS), enabling compliant role-based reporting across 6 manufacturing plants and 5,000+ employees",
+                  "Built a unified analytics platform using scheduled SQL and Python ETL feeding a Power BI model with standardized dimensional tables and DAX measures, creating a single source of truth across 80+ business units",
+                  "Deployed ARIMA and Random Forest forecasting models achieving 80% accuracy, using A/B and hypothesis testing to guide pricing and procurement decisions",
                 ],
               },
-            ].map((job, i) => (
+            ].map((job: {
+              company: string
+              role: string
+              location: string
+              date: string
+              techStack?: string
+              bullets?: string[]
+              subcategories?: { emoji: string; name: string; bullets: string[]; tech: string }[]
+            }, i) => (
               <NeoCard key={i} bg="bg-white">
                 <CardHeader>
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
@@ -492,7 +492,7 @@ export default function Home() {
                   ) : (
                     <>
                       <ul className="space-y-2">
-                        {("bullets" in job ? job.bullets : []).map((bullet, k) => (
+                        {(job.bullets ?? []).map((bullet, k) => (
                           <li key={k} className="flex items-start gap-2 text-sm leading-relaxed">
                             <span className="text-[#FF1E8E] font-bold shrink-0 mt-0.5">▸</span>
                             {bullet}
