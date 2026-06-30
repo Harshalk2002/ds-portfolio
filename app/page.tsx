@@ -372,7 +372,7 @@ export default function Home() {
                 ],
               },
               {
-                company: "Georgia State University - J. Mack Robinson College of Business",
+                company: "Georgia State University",
                 role: "Business Analyst",
                 location: "Atlanta, GA · Hybrid",
                 date: "Aug 2025 – Dec 2025",
@@ -380,7 +380,7 @@ export default function Home() {
                 bullets: [
                   "Built SQL-powered dashboards tracking operational KPIs (FIM efficiency, length of stay, cycle time variance, bed utilization) across 5 rehabilitation service lines at a US News #13-ranked hospital, reducing executive reporting cycles by 35% by replacing manual spreadsheet compilation, used by clinical leadership for capacity planning across 152 beds",
                   "Developed and deployed predictive ML models achieving 81% accuracy in identifying patient flow bottlenecks in real time, enabling proactive staff reallocation that improved operational efficiency by 12%",
-                  "Engineered automated data validation workflows during Shepherd Center's Epic EHR migration, reducing manual data triage by 35% and ensuring pipeline continuity for NIDILRR Model System federal reporting",
+                  "Engineered automated data validation workflows during an Epic EHR migration, reducing manual data triage by 35% and ensuring pipeline continuity for NIDILRR Model System federal reporting",
                 ],
               },
               {
@@ -397,7 +397,7 @@ export default function Home() {
                 ],
               },
               {
-                company: "Georgia State University - J. Mack Robinson College of Business",
+                company: "Georgia State University",
                 role: "Data Analyst",
                 location: "Atlanta, Georgia, United States",
                 date: "Aug 2024 – Apr 2025",
