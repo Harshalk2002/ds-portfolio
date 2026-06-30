@@ -372,7 +372,7 @@ export default function Home() {
                 ],
               },
               {
-                company: "Shepherd Center",
+                company: "Georgia State University — GRA",
                 role: "Business Analyst",
                 location: "Atlanta, GA · Hybrid",
                 date: "Aug 2025 – Dec 2025",
@@ -397,7 +397,7 @@ export default function Home() {
                 ],
               },
               {
-                company: "Shepherd Center",
+                company: "Georgia State University — GRA",
                 role: "Data Analyst",
                 location: "Atlanta, GA",
                 date: "Jan 2025 – Apr 2025",
@@ -409,7 +409,7 @@ export default function Home() {
                 ],
               },
               {
-                company: "Better Business Bureau",
+                company: "Georgia State University — GRA",
                 role: "Data Analyst / AI Developer",
                 location: "Atlanta, GA · Hybrid",
                 date: "Aug 2024 – Dec 2024",
