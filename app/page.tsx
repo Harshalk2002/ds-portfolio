@@ -372,7 +372,7 @@ export default function Home() {
                 ],
               },
               {
-                company: "Georgia State University — GRA",
+                company: "Georgia State University - J. Mack Robinson College of Business",
                 role: "Business Analyst",
                 location: "Atlanta, GA · Hybrid",
                 date: "Aug 2025 – Dec 2025",
@@ -397,27 +397,14 @@ export default function Home() {
                 ],
               },
               {
-                company: "Georgia State University — GRA",
+                company: "Georgia State University - J. Mack Robinson College of Business",
                 role: "Data Analyst",
-                location: "Atlanta, GA",
-                date: "Jan 2025 – Apr 2025",
+                location: "Atlanta, Georgia, United States",
+                date: "Aug 2024 – Apr 2025",
                 techStack: "SQL, Python, Power BI, ML",
                 bullets: [
-                  "Built SQL-powered analytical dashboards tracking operational KPIs across 5 rehabilitation service lines, reducing executive reporting cycles by 35% and replacing manual spreadsheet compilation for clinical leadership",
-                  "Developed predictive ML models achieving 81% accuracy in bottleneck detection, enabling proactive staff reallocation that improved operational efficiency by 12%",
-                  "Engineered automated data validation workflows during Epic EHR migration, reducing manual triage by 35% and ensuring data continuity for NIDILRR Model System reporting",
-                ],
-              },
-              {
-                company: "Georgia State University — GRA",
-                role: "Data Analyst / AI Developer",
-                location: "Atlanta, GA · Hybrid",
-                date: "Aug 2024 – Dec 2024",
-                techStack: "Python, LangChain, RAG, LLMs, SQL",
-                bullets: [
-                  "Fine-tuned production LLM systems using LangChain + RAG over BBB's enterprise complaint corpus (81K+ scams, 697K reviews), improving AI response alignment from 36% to 77%, outperforming the 50% baseline through prompt engineering and eval loops",
-                  "Architected ETL pipelines in Python and SQL consolidating 5+ data sources (complaints, Scam Tracker, business profiles), improving data quality by 40% and enabling automated classification across 33 scam categories at 200M+ visit scale",
-                  "Deployed diagnostic ML pipelines achieving 81% accuracy and reducing resolution time by 35% against 30-day SLAs, supporting consumer protection across 90+ bureaus that helped avoid $43M in fraud losses",
+                  "Consolidated 5+ data sources into unified models, improving data quality by 40% for business cases and scenario analysis supporting strategic decisions.",
+                  "Built dashboards and ran A/B and hypothesis tests to validate recommendations before rollout, reducing review cycles by 30%.",
                 ],
               },
               {
