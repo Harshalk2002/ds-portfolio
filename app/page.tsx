@@ -372,7 +372,7 @@ export default function Home() {
                 ],
               },
               {
-                company: "Georgia State University",
+                company: "Shepherd Center",
                 role: "Business Analyst",
                 location: "Atlanta, GA · Hybrid",
                 date: "Aug 2025 – Dec 2025",
@@ -397,10 +397,10 @@ export default function Home() {
                 ],
               },
               {
-                company: "Georgia State University",
+                company: "Shepherd Center",
                 role: "Data Analyst",
                 location: "Atlanta, Georgia, United States",
-                date: "Aug 2024 – Apr 2025",
+                date: "Jan 2025 – Apr 2025",
                 techStack: "SQL, Python, Power BI, ML",
                 bullets: [
                   "Consolidated 5+ data sources into unified models, improving data quality by 40% for business cases and scenario analysis supporting strategic decisions.",
