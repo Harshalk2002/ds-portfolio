@@ -408,6 +408,17 @@ export default function Home() {
                 ],
               },
               {
+                company: "Better Business Bureau",
+                role: "Business Intelligence Engineer",
+                location: "Atlanta, GA",
+                date: "Aug 2024 – Dec 2024",
+                techStack: "Python, SQL, ML, LLM, RAG, Prompt Engineering",
+                bullets: [
+                  "Analyzed behavioral and engagement data across 200M+ annual visits, building classification models reaching 81% accuracy to prioritize fixes",
+                  "Built Generative BI and LLM tools with prompt engineering and RAG, improving response quality from 36% to 77% with quality reviews",
+                ],
+              },
+              {
                 company: "TDK Electronics",
                 role: "Business Analyst",
                 location: "Tokyo, Japan · Hybrid",
